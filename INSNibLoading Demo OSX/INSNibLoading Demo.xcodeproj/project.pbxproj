@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2354B231C22C602000AAAED /* NSView+INSNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D2354B221C22C602000AAAED /* NSView+INSNibLoading.m */; };
+		D25DFE821C22B9800094B94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DFE811C22B9800094B94E /* AppDelegate.m */; };
+		D25DFE851C22B9800094B94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DFE841C22B9800094B94E /* main.m */; };
+		D25DFE881C22B9810094B94E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DFE871C22B9810094B94E /* ViewController.m */; };
+		D25DFE8A1C22B9810094B94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25DFE891C22B9810094B94E /* Assets.xcassets */; };
+		D25DFE8D1C22B9810094B94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25DFE8B1C22B9810094B94E /* Main.storyboard */; };
+		D25DFE961C22B9970094B94E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DFE951C22B9970094B94E /* CustomView.m */; };
+		D25DFE9A1C22B9D60094B94E /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25DFE991C22B9D60094B94E /* CustomView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2354B211C22C602000AAAED /* NSView+INSNibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+INSNibLoading.h"; sourceTree = "<group>"; };
+		D2354B221C22C602000AAAED /* NSView+INSNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+INSNibLoading.m"; sourceTree = "<group>"; };
+		D25DFE7D1C22B9800094B94E /* INSNibLoading Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INSNibLoading Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25DFE801C22B9800094B94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D25DFE811C22B9800094B94E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D25DFE841C22B9800094B94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25DFE861C22B9810094B94E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D25DFE871C22B9810094B94E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D25DFE891C22B9810094B94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25DFE8C1C22B9810094B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D25DFE8E1C22B9810094B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25DFE941C22B9970094B94E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		D25DFE951C22B9970094B94E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		D25DFE991C22B9D60094B94E /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25DFE7A1C22B9800094B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2354B201C22C602000AAAED /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				D2354B211C22C602000AAAED /* NSView+INSNibLoading.h */,
+				D2354B221C22C602000AAAED /* NSView+INSNibLoading.m */,
+			);
+			name = OSX;
+			path = ../../INSNibLoading/OSX;
+			sourceTree = "<group>";
+		};
+		D25DFE741C22B9800094B94E = {
+			isa = PBXGroup;
+			children = (
+				D25DFE7F1C22B9800094B94E /* INSNibLoading Demo */,
+				D25DFE7E1C22B9800094B94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D25DFE7E1C22B9800094B94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25DFE7D1C22B9800094B94E /* INSNibLoading Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25DFE7F1C22B9800094B94E /* INSNibLoading Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D2354B201C22C602000AAAED /* OSX */,
+				D25DFE831C22B9800094B94E /* Supporting Files */,
+				D25DFE801C22B9800094B94E /* AppDelegate.h */,
+				D25DFE811C22B9800094B94E /* AppDelegate.m */,
+				D25DFE891C22B9810094B94E /* Assets.xcassets */,
+				D25DFE941C22B9970094B94E /* CustomView.h */,
+				D25DFE951C22B9970094B94E /* CustomView.m */,
+				D25DFE991C22B9D60094B94E /* CustomView.xib */,
+				D25DFE8E1C22B9810094B94E /* Info.plist */,
+				D25DFE8B1C22B9810094B94E /* Main.storyboard */,
+				D25DFE861C22B9810094B94E /* ViewController.h */,
+				D25DFE871C22B9810094B94E /* ViewController.m */,
+			);
+			path = "INSNibLoading Demo";
+			sourceTree = "<group>";
+		};
+		D25DFE831C22B9800094B94E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D25DFE841C22B9800094B94E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25DFE7C1C22B9800094B94E /* INSNibLoading Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25DFE911C22B9810094B94E /* Build configuration list for PBXNativeTarget "INSNibLoading Demo" */;
+			buildPhases = (
+				D25DFE791C22B9800094B94E /* Sources */,
+				D25DFE7A1C22B9800094B94E /* Frameworks */,
+				D25DFE7B1C22B9800094B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INSNibLoading Demo";
+			productName = appkit;
+			productReference = D25DFE7D1C22B9800094B94E /* INSNibLoading Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25DFE751C22B9800094B94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Inspace Labs Sp z o. o. Spółka Komandytowa";
+				TargetAttributes = {
+					D25DFE7C1C22B9800094B94E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D25DFE781C22B9800094B94E /* Build configuration list for PBXProject "INSNibLoading Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25DFE741C22B9800094B94E;
+			productRefGroup = D25DFE7E1C22B9800094B94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25DFE7C1C22B9800094B94E /* INSNibLoading Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25DFE7B1C22B9800094B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25DFE8A1C22B9810094B94E /* Assets.xcassets in Resources */,
+				D25DFE8D1C22B9810094B94E /* Main.storyboard in Resources */,
+				D25DFE9A1C22B9D60094B94E /* CustomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25DFE791C22B9800094B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25DFE881C22B9810094B94E /* ViewController.m in Sources */,
+				D25DFE961C22B9970094B94E /* CustomView.m in Sources */,
+				D25DFE851C22B9800094B94E /* main.m in Sources */,
+				D2354B231C22C602000AAAED /* NSView+INSNibLoading.m in Sources */,
+				D25DFE821C22B9800094B94E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D25DFE8B1C22B9810094B94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25DFE8C1C22B9810094B94E /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D25DFE8F1C22B9810094B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D25DFE901C22B9810094B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D25DFE921C22B9810094B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "INSNibLoading Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.inspace.appkit;
+				PRODUCT_NAME = "INSNibLoading Demo";
+			};
+			name = Debug;
+		};
+		D25DFE931C22B9810094B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "INSNibLoading Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.inspace.appkit;
+				PRODUCT_NAME = "INSNibLoading Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25DFE781C22B9800094B94E /* Build configuration list for PBXProject "INSNibLoading Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25DFE8F1C22B9810094B94E /* Debug */,
+				D25DFE901C22B9810094B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25DFE911C22B9810094B94E /* Build configuration list for PBXNativeTarget "INSNibLoading Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25DFE921C22B9810094B94E /* Debug */,
+				D25DFE931C22B9810094B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25DFE751C22B9800094B94E /* Project object */;
+}
