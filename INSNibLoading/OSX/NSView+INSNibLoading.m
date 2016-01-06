@@ -49,7 +49,9 @@ static char INSNibLoadingOutletsKey;
     return nib;
 }
 
-
+- (NSView *)ins_contentViewForNib {
+    return self;
+}
 
 - (void)ins_loadContentsFromNibNamed:(NSString *)nibName bundle:(NSBundle *)bundle {
     // Load the nib file, setting self as the owner.
@@ -95,7 +97,7 @@ static char INSNibLoadingOutletsKey;
         if (view.superview) {
             [view removeFromSuperview];
         }
-        [self addSubview:view];
+        [[self ins_contentViewForNib] addSubview:view];
     }
 
     // Recreate constraints, replace containerView with self
@@ -103,10 +105,10 @@ static char INSNibLoadingOutletsKey;
         id firstItem = oldConstraint.firstItem;
         id secondItem = oldConstraint.secondItem;
         if (firstItem == containerView) {
-            firstItem = self;
+            firstItem = [self ins_contentViewForNib];
         }
         if (secondItem == containerView) {
-            secondItem = self;
+            secondItem = [self ins_contentViewForNib];
         }
 
         NSLayoutConstraint *newConstraint = [NSLayoutConstraint constraintWithItem:firstItem
