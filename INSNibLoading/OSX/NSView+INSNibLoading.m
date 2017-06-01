@@ -90,10 +90,10 @@ static char INSNibLoadingOutletsKey;
     }
 
     // Save constraints for later
-    NSArray *constraints = containerView.constraints;
+    NSArray *constraints = [containerView.constraints copy];
 
     // reparent the subviews from the nib file
-    for (NSView *view in containerView.subviews) {
+    for (NSView *view in [containerView.subviews copy]) {
         if (view.superview) {
             [view removeFromSuperview];
         }
